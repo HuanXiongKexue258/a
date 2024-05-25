@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        section#showcase {
+            min-height: 400px;
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        section#showcase h1 {
+            font-size: 55px;
+            margin-top: 0;
+        }
+        section#showcase p {
+            font-size: 20px;
+        }
+        section#content {
+            padding: 20px;
+        }
+        .box {
+            float: left;
+            width: 30%;
+            padding: 10px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .box img {
+            width: 100%;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>您的名字</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#showcase">主页</a></li>
+                    <li><a href="#content">内容</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>欢迎来到我的个人网页</h1>
+            <p>在这里我会分享一些有意思的东西和我的项目展示。</p>
+        </div>
+    </section>
+
+    <section id="content" class="container">
+        <h2>有意思的分享</h2>
+        <div class="box">
+            <h3>分享一</h3>
+            <p>这里是一些有趣的内容或链接。</p>
+        </div>
+        <div class="box">
+            <h3>分享二</h3>
+            <p>这里是一些有趣的内容或链接。</p>
+        </div>
+        <div class="box">
+            <h3>分享三</h3>
+            <p>这里是一些有趣的内容或链接。</p>
+        </div>
+
+        <h2>项目展示</h2>
+        <div class="box">
+            <img src="project1.jpg" alt="项目一">
+            <h3>项目一</h3>
+            <p>项目一的简要描述。</p>
+        </div>
+        <div class="box">
+            <img src="project2.jpg" alt="项目二">
+            <h3>项目二</h3>
+            <p>项目二的简要描述。</p>
+        </div>
+        <div class="box">
+            <img src="project3.jpg" alt="项目三">
+            <h3>项目三</h3>
+            <p>项目三的简要描述。</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>您的名字 &copy; 2024</p>
+    </footer>
+</body>
+</html>
